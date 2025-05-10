@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
  int main(){
  // int a,b;
@@ -26,6 +27,27 @@ printf("%.3lf", floatNumber);
 int result = 5/2;
 float result2 = (float) 5/2;
 printf("\n the result of 5/2 is: %f", result2);
+
+
+int maxScore = 500;
+int useScore = 423;
+
+float percentage = (float) useScore/maxScore *100;
+printf("\nuser's percentage is %.2f", percentage);
+
+const int unchangeableNumber = 44;
+printf("\n the constant number is: %d", unchangeableNumber);
+
+
+bool isCProgrammingFun = false;
+bool isJavaScriptEnjoyable = true;
+
+printf("\nC programming is very raw language, it's true but its not enoyable language. %d", isCProgrammingFun);
+printf("\n i enjoy javascript %d", isJavaScriptEnjoyable);
+
+
+printf("\n%d", 10>9);
+
 
 
 
