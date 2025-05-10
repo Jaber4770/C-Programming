@@ -49,7 +49,15 @@ printf("\n i enjoy javascript %d", isJavaScriptEnjoyable);
 printf("\n%d", 10>9);
 
 
+int myAge = 23;
+int votingAge = 18;
+printf("\n 1 means the result is true %d", myAge>=votingAge);
 
+if(myAge>votingAge){
+    printf("I am eligible for vote! YaY!!");
+}else{
+printf("I have to wait to vote.");
+}
 
 
 
