@@ -83,6 +83,64 @@ int time =20;
 (time>18)? printf("\nGood evening.") : printf("\nGood day!");
 
 
+int doorCode = 9922;
+if(doorCode == 9922){
+    printf("Correct code. \nThe door is now open.");
+}else{
+    printf("Wrong code. \nThe door remains closed.");
+}
+
+int theNumber = 5;
+if(theNumber%2==0){
+    printf("\nis even.\n%d",theNumber);
+}else{
+printf("\nis odd.\n%d",theNumber);
+}
+
+
+switch(theNumber){
+    case 4:
+    printf("the number is greater than 4");
+    break;
+    case  5:
+    printf("the number is lower than 4");
+    break;
+
+}
+
+int i = 0;
+while(i<=5){
+    printf("\nThe Number is:%d",i);
+    i++;
+}
+
+
+do{
+    printf("\nThis is do while loop. %d",i);
+    i++;
+}
+while (i<5);
+
+
+int countDown = 3;
+while (countDown>=0){
+            if(countDown == 0){
+        printf("happy new year!!\n");
+    }
+    printf("\n the coundown is:%d", countDown);
+    countDown--;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
  return 0;
