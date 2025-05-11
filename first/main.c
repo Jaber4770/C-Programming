@@ -59,6 +59,29 @@ if(myAge>votingAge){
 printf("I have to wait to vote.");
 }
 
+if(4<5){
+    printf("\n5 is greaterthan 4");
+}else{
+printf("\n5 is greater than 4");
+}
+
+
+int number1 = 5;
+int number2 = 6;
+int number3 = 7;
+
+if(number1>number2){
+    printf("\ngood morning");
+}else if(number2>number3){
+    printf("\ngood noon");
+}else{
+    printf("\ngood afternoon");
+}
+
+
+int time =20;
+(time>18)? printf("\nGood evening.") : printf("\nGood day!");
+
 
 
 
