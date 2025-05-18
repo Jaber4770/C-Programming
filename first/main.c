@@ -132,6 +132,53 @@ while (countDown>=0){
 
 }
 
+int limit = 5;
+int initial = 0;
+while(initial<=limit){
+    printf("\n%d",initial,"printing the number.");
+    initial++;
+}
+
+//---------------do while loop
+
+int ii = 0;
+do{
+    printf("%d\n",ii);
+    ii++;
+}
+while(ii<5);
+
+
+
+int iniValue = 1;
+do{
+    printf("hello world! %d\n",iniValue);
+    iniValue++;
+}
+while(iniValue<=10);
+
+
+//-----count down-----
+
+int countingDown = 5;
+while(countingDown>0){
+        printf("\n\n");
+    printf("%d\n",countingDown);
+    countingDown--;
+}
+printf("happy new year!!\n");
+
+
+int iValue = 0;
+while(iValue<20){
+    if(iValue > 0){
+        printf("%d\n",iValue);
+    }
+    iValue+=2;
+}
+
+
+
 
 
 
