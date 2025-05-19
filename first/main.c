@@ -177,10 +177,75 @@ while(iValue<20){
     iValue+=2;
 }
 
+int v = 1;
+for(v=0;v<5;v++){
+    printf("oi kire oi kire \n",v);
+}
+
+int a,j;
+for(a=1;a<= 2;++a){
+    printf("Outer loop: %d\n",a);
+    for(j=1;j<=3;++j){
+        printf("inner loop: %d\n",j);
+    }
+}
+
+
+int nums = 2;
+int b;
+
+for(b=1;b<=10;b++){
+    printf("%d x %d = %d\n",nums,b,nums*b);
+}
+
+int c;
+for(c=0;c<=20;c++){
+    if(c == 4){
+            printf("break up!\n");
+        break;
+    }
+    printf("%d\n",c);
+}
+
+
+int d;
+for(d=1;d<=5;d++){
+    if(d==2){
+        continue;
+    }
+    printf("print kora hochhe. %d\n",d);
+}
+
+
+//-----array---
+int numsArray[]={2,2,34,34,34,34,35,43,54,54};
+int index;
+int arrayLength = sizeof(numsArray)/sizeof(numsArray[0]);
+for(index = 0; index<arrayLength; index++){
+    printf("%d\n",numsArray[index]);
+}
+
+
+int numbersAry[]={123,2,3,43,4};
+printf("Total size in bytes: %lu\n", sizeof(numbersAry));
 
 
 
+// find the avarage of an array of numbers.
+int numbersForAvg[]={12,32,3,23,43,5,65,44,5,5,4,434,3};
+int length = sizeof(numbersForAvg)/sizeof(numbersForAvg[0]);
+int conter;
+int sum,avg =0;
+for(conter = 0; conter<=length;conter++){
+    sum += numbersForAvg[conter];
+    avg=sum/length;
+}
+printf("Avarage of the array: %d\n",avg);
 
+
+//=------------string------------
+char greetings[]="hello world!";
+printf("%s\n", greetings);
 
 
 
