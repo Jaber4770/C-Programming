@@ -247,18 +247,19 @@ printf("Avarage of the array: %d\n",avg);
 char greetings[]="hello world!";
 printf("%s\n", greetings);
 
+char greetingsMornig[]="good morning";
+printf("%s\n",greetingsMornig);
 
+char greetingsss[] = "finally vs code e c er code run korte parlam. ";
+printf("%s\n", greetingsss);
 
+char greetingsOftheWord[] = "Hello World!";
+printf("%c", greetingsOftheWord[0]);
 
+return 0;
 
-
-
-
-
- return 0;
-
- //this is comment
- /*
- this is comment
- */
+// this is comment
+/*
+this is comment
+*/
  }
